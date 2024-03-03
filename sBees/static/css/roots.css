@@ -1,0 +1,64 @@
+:root {
+  --banner-color-one: #4E9DD7;
+  --banner-color-two: #6B41A1;
+  --font-color-one: #fff;
+  --font-color-two: #000;
+  --header-font-size: 2rem;
+  --header-font-size-alt: 1.75rem;
+  --paragraph-text: .8rem;
+  --rounded-edge: 10px;
+  --rounded-edge-alt: 5px;
+}
+
+@font-face {
+  font-family: 'Araboto';
+  src: url("../fonts/Araboto-Normal-400.ttf");
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+/* screen size max-width 375px */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  scroll-snap-type: x mandatory;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4,
+h5,
+h6,
+p {
+  font-family: 'Araboto', sans-serif;
+}
+
+
+section{
+  height: 100vh;
+  width: 100%;
+}
+
+.container-fluid{
+  height: 100vh;
+  width: 100%;
+ 
+}
